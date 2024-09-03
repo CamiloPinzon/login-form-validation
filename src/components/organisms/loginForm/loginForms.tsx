@@ -33,10 +33,12 @@ const LoginForm = () => {
 			valid = true;
 		}
 
-		const validationMessage = valid
-			? "send data, form it's ok"
-			: "form is not valid";
-		console.log(validationMessage);
+		if (valid) {
+			alert("send data, form it's ok");
+			valid = false;
+			setEmail("");
+			setPassword("");
+		}
 	};
 	return (
 		<form onSubmit={handleSubmit}>
