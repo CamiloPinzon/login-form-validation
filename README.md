@@ -105,8 +105,3 @@ This project follows several best practices:
 ## License
 
 This project is licensed under the MIT License.
-```
-
----
-
-Feel free to customize this `README.md` file as needed.
